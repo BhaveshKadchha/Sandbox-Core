@@ -1,0 +1,9 @@
+{
+  "name": "com.sandbox.core",
+  "version": "1.0.0",
+  "displayName": "Sandbox Core",
+  "description": "This is a custome Package by Bhavesh Kadchha.",
+  "author": {
+    "name": "Bhavesh Kadchha"
+  }
+}
