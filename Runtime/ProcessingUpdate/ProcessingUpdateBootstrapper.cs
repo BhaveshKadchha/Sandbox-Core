@@ -33,6 +33,8 @@ namespace Sandbox.CustomLoop
                 {
                     PlayerLoopSystem current = PlayerLoop.GetCurrentPlayerLoop();
                     RemoveProcessingUpdate<Update>(ref current);
+                    RemoveProcessingUpdate<FixedUpdate>(ref current);
+                    RemoveProcessingUpdate<PostLateUpdate>(ref current);
                     PlayerLoop.SetPlayerLoop(current);
 
                     ProcessingUpdate.Clear();
