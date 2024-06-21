@@ -1,6 +1,5 @@
-My Custom Package for making work easy in Unity.
+Following modules are included in this package.
 
-Following packages are included in this package.
 - UI System for managing UI in Game.
 - Singleton for making quick singletons.
 - Processing Update is a quick solution for creating controllable updates
