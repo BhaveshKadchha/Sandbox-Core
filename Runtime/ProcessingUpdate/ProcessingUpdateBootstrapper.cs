@@ -25,7 +25,6 @@ namespace Sandbox.CustomLoop
 #if UNITY_EDITOR
             EditorApplication.playModeStateChanged -= OnPlayModeState;
             EditorApplication.playModeStateChanged += OnPlayModeState;
-#endif
 
             static void OnPlayModeState(PlayModeStateChange state)
             {
@@ -40,6 +39,7 @@ namespace Sandbox.CustomLoop
                     ProcessingUpdate.Clear();
                 }
             }
+#endif
         }
 
         static void RemoveProcessingUpdate<T>(ref PlayerLoopSystem loop)
